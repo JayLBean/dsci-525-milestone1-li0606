@@ -1,0 +1,29 @@
+name: '525_dev_2026'
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+  - ipywidgets
+  - pyarrow=22.0.0
+  - requests
+  - r-arrow=22.0.0
+  - pip
+  - urllib3
+  - r-dplyr=1.2.0
+  - r-readr
+  - s3fs=2026.2.0
+  - pandas=2.3.3
+  - psutil
+  - awswrangler=3.15.1
+  - r-dbplyr=2.5.2
+  - pip:
+    - rpy2==3.5.17
+    - rpy2-arrow==0.0.8
+    - duckdb
+    - ibis-framework[duckdb, examples]
+    - polars==1.38.1
+    - jupyter-book
+    - plotly
+    - sphinx-thebe
